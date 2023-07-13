@@ -110,9 +110,15 @@ label {
 input {
     width: 200rem;
     height: 28rem;
+    appearance: none;
 
     border: 2px solid #E5E7EB;
+    border-radius: 4px;
     padding: 0.5rem;
+}
+
+input:focus {
+    outline: 1px solid blue;
 }
 
 
