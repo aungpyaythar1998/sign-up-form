@@ -98,8 +98,7 @@ body {
 
 .name-row,
 .contact-row,
-.password-row
- {
+.password-row {
     display: flex;
     gap: 50rem;
 
@@ -122,7 +121,7 @@ input {
 
     border: 2px solid #E5E7EB;
     border-radius: 4px;
-    padding: 0.5rem;
+    padding: 3rem;
 }
 
 input:focus {
