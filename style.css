@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url(fonts/norse_bold.woff);
+}
+
+:root {
+    font-size: 6.25%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+
+    width: 100%;
+    min-height: 100vh;
+}
+
+.side-image {
+    position: relative;
+
+    flex: 1 0 200px;
+
+    background-size: 100% 100%;
+    background-image: url(images/green_leaf_plant.jpg);
+}
+
+.logo-container {
+    position: absolute;
+    top: 22%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 20em 0;
+
+    text-align: center;
+    background-color: rgba(0 0 0 / 0.5);
+}
+
+.logo {
+    height: 80rem;
+}
+
+.logo-text {
+    color: white;
+    font-family: "Norse Bold";
+    font-size: 60rem;
+}
+
+.form-container {
+    flex: 3 0 400px;
+}
