@@ -81,11 +81,11 @@ body {
     margin-top: 60rem;
 }
 
-.sign-up-form {
+.fill-form {
     display: flex;
     flex-direction: column;
 
-    padding: 20rem 340rem 0 80rem;
+    padding: 20rem 340rem 10rem 80rem;
 }
 
 .name-row,
