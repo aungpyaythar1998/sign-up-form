@@ -78,14 +78,22 @@ body {
 }
 
 .banner-row:last-of-type {
-    margin-top: 60rem;
+    margin-bottom: 60rem;
 }
 
 .fill-form {
     display: flex;
     flex-direction: column;
 
-    padding: 20rem 340rem 10rem 80rem;
+    padding: 20rem 340rem 20rem 80rem;
+    box-shadow: 0px 3px 3px 2px #C0C1C4;
+}
+
+.form-heading {
+    margin-bottom: 30rem; 
+
+    font-weight: bold;
+    font-size: 23rem;
 }
 
 .name-row,
