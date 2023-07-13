@@ -119,6 +119,7 @@ input {
 
 input:focus {
     outline: 1px solid blue;
+    box-shadow: 3px 3px 3px 0px #c0c1c4;
 }
 
 
