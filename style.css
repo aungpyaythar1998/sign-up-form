@@ -61,7 +61,6 @@ body {
 .form-container {
     flex: 3 0 400px;
 
-    padding: 8% 340rem 0 80rem;
 }
 
 .sign-up-banner {
@@ -70,6 +69,8 @@ body {
 
     font-weight: bold;
     font-size: 23rem;
+
+    padding: 8% 340rem 0 80rem;
 }
 
 .banner-row + .banner-row {
@@ -84,7 +85,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    margin-top: 20rem;
+    padding: 20rem 340rem 0 80rem;
 }
 
 .name-row,
