@@ -5,7 +5,16 @@
 
 :root {
     --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
     font-size: 6.25%;
+
+    --form-border-color: #E5E7EB;
+    --form-focus-color: blue;
+    --form-error-color: red;
+
+    --button-color: #fff;
+    --button-background: #596D48;
+    --box-shadow-color: #C0C1C4;
 }
 
 * {
