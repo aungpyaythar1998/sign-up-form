@@ -139,4 +139,43 @@ input:focus {
     box-shadow: 3px 3px 3px 0px var(--box-shadow-color);
 }
 
+.submit-form {
+    padding-left: 80rem;
+    padding-bottom: 24%;
+    margin-top: 40rem;
 
+    font-size: 18rem;
+}
+
+.create-account {
+    display: block;
+
+    appearance: none;
+
+    border: 1px solid var(--button-background);
+    border-radius: 8px;
+    padding: 18rem 60rem;
+    margin-bottom: 30rem;
+
+    font-family: inherit;
+    font-size: 100%;
+
+    color: var(--button-color);
+    background-color: var(--button-background);
+}
+
+.create-account:hover {
+    color: var(--button-background);
+    background-color: var(--button-color);
+}
+
+.login-text {
+    font-weight: 450;
+}
+
+.login-link {
+    text-decoration: none;
+    font-weight: 800;
+
+    color: var(--button-background);
+}
