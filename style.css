@@ -95,7 +95,7 @@ body {
     flex-direction: column;
 
     padding: 20rem 340rem 20rem 80rem;
-    box-shadow: 0px 3px 3px 2px #C0C1C4;
+    box-shadow: 0px 3px 3px 2px var(--box-shadow-color);
 }
 
 .form-heading {
@@ -128,15 +128,15 @@ input {
     height: 28rem;
     appearance: none;
 
-    border: 2px solid #E5E7EB;
+    border: 2px solid var(--form-border-color);
     border-radius: 4px;
     padding: 3rem;
 }
 
 input:focus {
     outline: none;
-    border: 1px solid blue;
-    box-shadow: 3px 3px 3px 0px #c0c1c4;
+    border: 1px solid var(--form-focus-color);
+    box-shadow: 3px 3px 3px 0px var(--box-shadow-color);
 }
 
 
