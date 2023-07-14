@@ -10,7 +10,8 @@
 
     --form-border-color: #E5E7EB;
     --form-focus-color: blue;
-    --form-error-color: red;
+    --pwd-mis-match-color: red;
+    --pwd-match-color: green;
 
     --button-color: #fff;
     --button-background: #596D48;
@@ -148,21 +149,21 @@ input:focus {
 
 .mis-match-form,
 .mis-match-form:focus {
-    border: 1px solid red;
+    border: 1px solid var(--pwd-mis-match-color);
 }
 
 .password-no-match::before {
-    color: red;
+    color: var(--pwd-mis-match-color);
     content: "* Passwords do not match";
 }
 
 .match-form,
 .match-form:focus {
-    border: 1px solid green;
+    border: 1px solid var(--pwd-match-color);
 }
 
 .password-match::before {
-    color: green;
+    color: var(--pwd-match-color);
     content: "✓ Passwords match"
 }
 
