@@ -146,9 +146,19 @@ input:focus {
     font-size: 14rem;
 }
 
+.mis-match-form,
+.mis-match-form:focus {
+    border: 1px solid red;
+}
+
 .password-no-match::before {
     color: red;
     content: "* Passwords do not match";
+}
+
+.match-form,
+.match-form:focus {
+    border: 1px solid green;
 }
 
 .password-match::before {
