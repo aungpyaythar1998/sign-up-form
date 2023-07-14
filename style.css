@@ -139,6 +139,23 @@ input:focus {
     box-shadow: 3px 3px 3px 0px var(--box-shadow-color);
 }
 
+.password-hint {
+    display: block;
+    height: 20rem;
+
+    font-size: 14rem;
+}
+
+.password-no-match::before {
+    color: red;
+    content: "* Passwords do not match";
+}
+
+.password-match::before {
+    color: green;
+    content: "✓ Passwords match"
+}
+
 .submit-form {
     padding-left: 80rem;
     padding-bottom: 24%;
