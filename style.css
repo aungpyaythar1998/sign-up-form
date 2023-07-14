@@ -131,7 +131,7 @@ input {
 
     border: 2px solid var(--form-border-color);
     border-radius: 4px;
-    padding: 3rem;
+    padding: 8rem;
 }
 
 input:focus {
