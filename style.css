@@ -124,8 +124,8 @@ label {
 }
 
 input {
-    width: 200rem;
-    height: 28rem;
+    width: 240rem;
+    height: 32rem;
     appearance: none;
 
     border: 2px solid var(--form-border-color);
