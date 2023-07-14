@@ -123,9 +123,7 @@ body {
     font-size: 23rem;
 }
 
-.name-row,
-.contact-row,
-.password-row {
+.form-row {
     display: flex;
     gap: 50rem;
 
